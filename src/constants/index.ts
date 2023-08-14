@@ -142,9 +142,9 @@ const experiences: TExperience[] = [
     date: "May 2023 - Sep 2023",
     points: [
       "Created a cloud cost management application to optimize infrastructure costs within GCP, resulting in significant monthly expense reductions.",
-      "Built a Flask microservice to notify project owners about daily cost anomalies using Median Absolute Deviation with Pandas, enhancing cost control measures.",
+      "Built a Flask microservice using Pandas to calculate interquartile ranges and notify project owners of daily cost anomalies, enhancing cost control measures.",
       "Implemented a Flask microservice for accurate project cost forecasting using ARIMA model, facilitating improved budget planning and resource allocation.",
-      "Collaborated with team to achieve an estimated annual savings of approximately $123,375 USD by implementing optimized infrastructure, proactive cost anomaly detection, and accurate cost forecasting."
+      "Collaborated with team to achieve annual savings of $123,375 USD by implementing optimized infrastructure, proactive cost anomaly detection, and accurate cost forecasting."
     ],
   },
   {
