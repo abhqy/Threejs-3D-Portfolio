@@ -27,16 +27,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r0jcplm",
-        "template_1t76uxq",
+        "service_dn4xaxo",
+        "template_bpej5u6",
         {
-          form_name: form.name,
-          to_name: "Liron",
+          from_name: form.name,
+          to_name: "Abhay Menon",
           from_email: form.email,
-          to_email: "contact@mail.com",
+          to_email: "abhaymenon7@gmail.com",
           message: form.message,
         },
-        "Jqq9AvwIuSjoMiA5c"
+        "joCtB0xV56RU_4OSQ"
       )
       .then(
         () => {
@@ -103,7 +103,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What do you want to say?"
+              placeholder="What would you like to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>

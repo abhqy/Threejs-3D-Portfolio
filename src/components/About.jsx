@@ -7,7 +7,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => (
+const ServiceCard = ({ index, title, icon, link }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -19,12 +19,13 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
+        onMouseUp={() => window.open(link, "_blank")}
         className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
           src={icon}
           alt="web-development"
-          className="w-16 h-16 object-contain"
+          className="w-21 h-21 object-contain"
         />
 
         <h3 className="text-white text-[20px] font-bold text-center">
@@ -40,20 +41,22 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About Me.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        <b>Hello World!</b>
+        <br />
+        <br />
+        I'm a third-year Computer Science student specializing in full-stack development and cloud infrastructure. Proficient in languages like C++, Python, and TypeScript, I've worked with technologies such as GCP, Node.js, Flask, AWS, and React.js.
+        <br />
+        <br />
+        From optimizing cloud app performance to leading Agile projects, my journey showcases a commitment to innovation and growth. Explore further to learn about my experiences and skills!
       </motion.p>
-
+    
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

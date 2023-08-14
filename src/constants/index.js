@@ -1,7 +1,7 @@
 import {
-  mobile,
-  backend,
-  creator,
+  linkedin,
+  github3d,
+  resume,
   web,
   javascript,
   typescript,
@@ -15,14 +15,25 @@ import {
   git,
   figma,
   docker,
+  cpp,
+  kotlin,
+  python,
+  sql,
+  racket,
   meta,
   starbucks,
+  cogeco,
+  bb,
+  cloudspark,
   tesla,
+  gcp,
+  aws,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  stickynotes,
+  heyo,
+  coursebuddy,
   threejs,
+  flask,
 } from "../assets";
 
 export const navLinks = [
@@ -42,35 +53,34 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "LinkedIn",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/abhqy/",
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "GitHub",
+    icon: github3d,
+    link: "https://www.github.com/abhqy/",
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Resume",
+    icon: resume,
+    link: "https://drive.google.com/file/d/1BrBqnp1aF0BKSSkEqnkYUSdWjo2hcmMZ/view?usp=sharing"    
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    title: "GCP",
+    icon: gcp,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    title: "Python",
+    icon: python,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    title: "C++",
+    icon: cpp,
   },
   {
     name: "TypeScript",
@@ -81,32 +91,32 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "Flask",
+    icon: flask,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "docker",
@@ -116,55 +126,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Cloud Software Engineer Intern",
+    company_name: "Cogeco Connexion",
+    icon: cogeco,
+    iconBg: "#001F62",
+    date: "May 2023 - Sep 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created a cloud cost management application to optimize infrastructure costs within GCP, resulting in significant monthly expense reductions.",
+      "Built a Flask microservice to notify project owners about daily cost anomalies using Median Absolute Deviation with Pandas, enhancing cost control measures.",
+      "Implemented a Flask microservice for accurate project cost forecasting using ARIMA model, facilitating improved budget planning and resource allocation.",
+      "Collaborated with team to achieve an estimated annual savings of approximately $123,375 USD by implementing optimized infrastructure, proactive cost anomaly detection, and accurate cost forecasting."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer Intern",
+    company_name: "BlackBerry",
+    icon: bb,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded frontend development for an internal cloud infrastructure management app using React and TypeScript, optimizing user experience.",
+      "Enhanced React web app performance by 54% through the implementation of caching, pagination, and throttling techniques.",
+      "Accelerated login speed by 98% through the application of memory caching techniques.",
+      "Boosted the app's user experience by code splitting, resulting in a 66% improvement in page load times."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Product Developer Assistant",
+    company_name: "Cloudspark Technology Labs",
+    icon: cloudspark,
+    iconBg: "#ffffff",
+    date: "Sep 2021 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed responsive and user-friendly dashboards using React, Material UI, and TypeScript.",
+      "Developed and published an npm UI library with Material UI components for enhanced code reusability.",
+      "Created a website documenting Cloudspark products using React and Gatsby.",
+      "Programmed efficient CosmosDB stored procedures for automating data projection deletion."
     ],
   },
 ];
@@ -198,67 +195,90 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Sticky Note",
+    repo: "gitlab",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A user-centric software application with rich text support and themes, microservices on AWS EC2 for scalability, and seamless remote data sync. ",
+    tags: [
+      {
+        name: "kotlin",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "spring",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javafx",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "junit",
+        color: "red-text-gradient",
+      },
+    ],
+    image: stickynotes,
+    source_code_link: "https://git.uwaterloo.ca/a32menon/notes-app",
+  },
+  {
+    name: "Heyo",
+    repo: "github",
+    description:
+      "A full-stack web application that enables users to create, share, and explore engaging posts enriched with images, comments and descriptions.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "javascript",
+        color: "yellow-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "purple-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: heyo,
+    source_code_link: "https://github.com/abhqy/twitter-clone",
   },
   {
-    name: "Job IT",
+    name: "Course Buddy",
+    repo: "github",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web application for UWaterloo's CS Students, featuring a seamless drag-and-drop interface for course selection, powered by Firebase's real-time database.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "javascript",
+        color: "yellow-text-gradient",
       },
       {
-        name: "scss",
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "styled-components",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: coursebuddy,
+    source_code_link: "https://github.com/brandngo/course-buddy",
   },
 ];
 
