@@ -126,7 +126,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Cloud Software Engineer Intern",
+    title: "System Administrator Intern",
     company_name: "Cogeco Connexion",
     icon: cogeco,
     iconBg: "#001F62",
