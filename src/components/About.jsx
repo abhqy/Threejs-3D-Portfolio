@@ -51,7 +51,7 @@ const About = () => {
         <b>Hello World!</b>
         <br />
         <br />
-        I'm a third-year Computer Science student specializing in full-stack development and cloud infrastructure. Proficient in languages like C++, Python, and TypeScript, I've worked with technologies such as GCP, Node.js, Flask, AWS, and React.js.
+        I'm a fourth-year Computer Science student specializing in full-stack development and cloud infrastructure. Proficient in languages like C++, Python, and TypeScript, I've worked with technologies such as GCP, Node.js, Flask, AWS, and React.js.
         <br />
         <br />
         From optimizing cloud app performance to leading Agile projects, my journey showcases a commitment to innovation and growth. Explore further to learn about my experiences and skills!

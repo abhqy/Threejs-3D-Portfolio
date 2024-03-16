@@ -34,6 +34,7 @@ import {
   coursebuddy,
   threejs,
   flask,
+  ddln,
 } from "../assets";
 
 export const navLinks = [
@@ -71,6 +72,10 @@ const services = [
 
 const technologies = [
   {
+    name: "AWS",
+    icon: aws,
+  },
+  {
     title: "GCP",
     icon: gcp,
   },
@@ -89,10 +94,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "AWS",
-    icon: aws,
   },
   {
     name: "Node JS",
@@ -125,6 +126,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "DevOps/DevSecOps Engineer Intern",
+    company_name: "Dandelion Networks",
+    icon: ddln,
+    iconBg: "#FFFFFF",
+    date: "Jan 2024 - May 2024",
+    points: [
+      "Automated image deletion processes across multiple EC2 instances using Jenkins and Ansible, reclaiming 42.75% of storage space.",
+      "Deployed Grafana and Prometheus for EC2 monitoring, leading to a 150% rise in actionable insights for improved decision-making and system optimization",
+      "Reduced manual configuration overhead by 97% using service discovery with Prometheus, enabling automatic detection of all blockchain nodes within the VPC.",
+    ],
+  },
   {
     title: "System Administrator Intern",
     company_name: "Cogeco Connexion",

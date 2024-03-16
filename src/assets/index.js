@@ -37,6 +37,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import cogeco from "./company/cogeco.png";
+import ddln from "./company/ddln.png";
 import bb from "./company/bb.png";
 import cloudspark from "./company/cloudspark.png";
 
@@ -81,6 +82,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  ddln,
   cogeco,
   bb,
   cloudspark,
