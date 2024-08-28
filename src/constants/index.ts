@@ -1,3 +1,12 @@
+import type {
+  TNavLink,
+  TService,
+  TTechnology,
+  TExperience,
+  TTestimonial,
+  TProject,
+} from "../types";
+
 import {
   linkedin,
   github3d,
@@ -37,7 +46,7 @@ import {
   ddln,
 } from "../assets";
 
-export const navLinks = [
+export const navLinks: TNavLink[] = [
   {
     id: "about",
     title: "About",
@@ -52,7 +61,7 @@ export const navLinks = [
   },
 ];
 
-const services = [
+const services: TService[] = [
   {
     title: "LinkedIn",
     icon: linkedin,
@@ -70,7 +79,7 @@ const services = [
   },
 ];
 
-const technologies = [
+const technologies: TTechnology[] = [
   {
     name: "AWS",
     icon: aws,
@@ -125,13 +134,21 @@ const technologies = [
   },
 ];
 
-const experiences = [
+const experiences: TExperience[] = [
   {
+<<<<<<< HEAD:src/constants/index.js
     title: "DevOps/DevSecOps Engineer Intern",
     company_name: "Dandelion Networks",
     icon: ddln,
     iconBg: "#FFFFFF",
     date: "Jan 2024 - May 2024",
+=======
+    title: "React.js Developer",
+    companyName: "Starbucks",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "March 2020 - April 2021",
+>>>>>>> upstream/main:src/constants/index.ts
     points: [
       "Automated image deletion processes across multiple EC2 instances using Jenkins and Ansible, reclaiming 42.75% of storage space.",
       "Deployed Grafana and Prometheus for EC2 monitoring, leading to a 150% rise in actionable insights for improved decision-making and system optimization",
@@ -139,6 +156,7 @@ const experiences = [
     ],
   },
   {
+<<<<<<< HEAD:src/constants/index.js
     title: "System Administrator Intern",
     company_name: "Cogeco Connexion",
     icon: cogeco,
@@ -155,6 +173,11 @@ const experiences = [
     title: "Software Developer Intern",
     company_name: "BlackBerry",
     icon: bb,
+=======
+    title: "React Native Developer",
+    companyName: "Tesla",
+    icon: tesla,
+>>>>>>> upstream/main:src/constants/index.ts
     iconBg: "#E6DEDD",
     date: "May 2022 - Dec 2022",
     points: [
@@ -165,6 +188,7 @@ const experiences = [
     ],
   },
   {
+<<<<<<< HEAD:src/constants/index.js
     title: "Product Developer Assistant",
     company_name: "Cloudspark Technology Labs",
     icon: cloudspark,
@@ -175,11 +199,36 @@ const experiences = [
       "Developed and published an npm UI library with Material UI components for enhanced code reusability.",
       "Created a website documenting Cloudspark products using React and Gatsby.",
       "Programmed efficient CosmosDB stored procedures for automating data projection deletion."
+=======
+    title: "Web Developer",
+    companyName: "Shopify",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Jan 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    companyName: "Meta",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+>>>>>>> upstream/main:src/constants/index.ts
     ],
   },
 ];
 
-const testimonials = [
+const testimonials: TTestimonial[] = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -206,7 +255,7 @@ const testimonials = [
   },
 ];
 
-const projects = [
+const projects: TProject[] = [
   {
     name: "Sticky Note",
     repo: "gitlab",
@@ -260,8 +309,13 @@ const projects = [
         color: "purple-text-gradient",
       },
     ],
+<<<<<<< HEAD:src/constants/index.js
     image: heyo,
     source_code_link: "https://github.com/abhqy/twitter-clone",
+=======
+    image: carrent,
+    sourceCodeLink: "https://github.com/",
+>>>>>>> upstream/main:src/constants/index.ts
   },
   {
     name: "Course Buddy",
@@ -290,8 +344,34 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+<<<<<<< HEAD:src/constants/index.js
     image: coursebuddy,
     source_code_link: "https://github.com/brandngo/course-buddy",
+=======
+    image: jobit,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    sourceCodeLink: "https://github.com/",
+>>>>>>> upstream/main:src/constants/index.ts
   },
 ];
 

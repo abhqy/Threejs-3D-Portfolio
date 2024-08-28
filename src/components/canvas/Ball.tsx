@@ -8,9 +8,9 @@ import {
   useTexture,
 } from "@react-three/drei";
 
-import CanvasLoader from "../Loader";
+import CanvasLoader from "../layout/Loader";
 
-const Ball = (props) => {
+const Ball = (props: any) => {
   const [decal] = useTexture([props.imgUrl]);
 
   return (
@@ -30,6 +30,7 @@ const Ball = (props) => {
           rotation={[2 * Math.PI, 0, 6.25]}
           scale={1}
           map={decal}
+          // @ts-expect-error
           flatShading
         />
       </mesh>
@@ -37,7 +38,7 @@ const Ball = (props) => {
   );
 };
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas: React.FC<{ icon: string }> = ({ icon }) => {
   return (
     <Canvas
       frameloop="demand"
