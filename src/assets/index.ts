@@ -1,9 +1,10 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+import github3d from "./github3d-i.png";
+import resume from "./resume.png";
+import linkedin from "./linkedin-i.png";
 import web from "./web.png";
 import github from "./github.png";
+import gitlab from "./gitlab.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -19,24 +20,39 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.svg"
+import flask from "./tech/flask.png";
+import cpp from "./tech/cpp.png";
+import kotlin from "./tech/kotlin.png";
+import python from "./tech/python.png";
+import sql from "./tech/sql.png";
+import r from "./tech/r.png";
+import racket from "./tech/racket.png";
+
+import aws from "./tech/aws.png";
+import gcp from "./tech/gcp.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import cogeco from "./company/cogeco.png";
+import bb from "./company/bb.png";
+import cloudspark from "./company/cloudspark.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import heyo from "./heyo.png";
+import coursebuddy from "./coursebuddy.png";
+import stickynotes from "./stickynotes.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
+  github3d,
+  resume,
+  linkedin,
   web,
   github,
+  gitlab,
   menu,
   close,
   css,
@@ -52,11 +68,24 @@ export {
   tailwind,
   typescript,
   threejs,
+  flask,
+  cpp,
+  kotlin,
+  python,
+  sql,
+  r,
+  racket,
+  aws,
+  gcp,
   meta,
   shopify,
   starbucks,
   tesla,
+  cogeco,
+  bb,
+  cloudspark,
   carrent,
-  jobit,
-  tripguide,
+  heyo,
+  coursebuddy,
+  stickynotes
 };

@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "abhqy",
+    fullName: "Abhay Menon",
+    email: "a32menon@uwaterloo.ca",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "abhay.",
+    p: ["a 4B CS student at UW interested in", "cloud technologies and full-stack development."],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,8 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a fourth-year Computer Science student specializing in full-stack development and cloud infrastructure. Proficient in languages like C++, Python, and TypeScript, I've worked with technologies such as GCP, AWS, Kubernetes, Terraform, Node.js, Flask, and React.js.
+      From optimizing cloud app performance to leading Agile projects, my journey showcases a commitment to innovation and growth. Explore further to learn about my experiences and skills!`,
     },
     experience: {
       p: "What I have done so far",
@@ -84,11 +81,7 @@ export const config: TConfig = {
     works: {
       p: "My work",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `From intuitive interfaces boosting productivity, to pioneering platforms enhancing engagement, each project is a testament to my commitment to excellence. Join me in navigating the confluence of creativity, technical finesse, and visionary leadership that defines my journey in software development.`,
     },
   },
 };
