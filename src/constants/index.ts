@@ -135,7 +135,7 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "Cloud Software Engineer Intern",
+    title: "System Administrator Intern",
     companyName: "Cogeco Connexion",
     icon: cogeco,
     iconBg: "#001F62",
