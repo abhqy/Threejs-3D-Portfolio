@@ -3,10 +3,12 @@ import { motion } from "framer-motion";
 import { styles } from "../../constants/styles";
 import { ComputersCanvas } from "../canvas";
 import { config } from "../../constants/config";
+import RoomCanvas from "../canvas/Room";
 
 const Hero = () => {
   return (
     <section className={`relative mx-auto h-screen w-full`}>
+      <RoomCanvas />
       <div
         className={`absolute inset-0 top-[120px] mx-auto max-w-7xl ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -25,8 +27,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="xs:bottom-10 absolute bottom-32 flex w-full items-center justify-center">
         <a href="#about">
