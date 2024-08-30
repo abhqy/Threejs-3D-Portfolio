@@ -5,11 +5,11 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../layout/Loader";
 
 const Computers: React.FC<{ isMobile: boolean }> = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./garage/scene.gltf");
 
   return (
     <mesh>
-      <hemisphereLight intensity={1.5} groundColor="black" />
+      {/* <hemisphereLight intensity={1.5} groundColor="black" /> */}
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -21,9 +21,9 @@ const Computers: React.FC<{ isMobile: boolean }> = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -4.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        scale={isMobile ? 0.7 : 9}
+        position={isMobile ? [0, -3, -2.2] : [0, -15, -25]}
+        rotation={[0,0,0]}
       />
     </mesh>
   );
@@ -62,13 +62,14 @@ const ComputersCanvas = () => {
           frameloop="demand"
           shadows
           dpr={[1, 2]}
-          camera={{ position: [20, 3, 5], fov: 25 }}
+          camera={{ position: [20, 3, 5], fov: 60 }}
           gl={{ preserveDrawingBuffer: true }}
         >
           <Suspense fallback={<CanvasLoader />}>
             <OrbitControls
               enableZoom={false}
               maxPolarAngle={Math.PI / 2}
+              autoRotate={true}
               minPolarAngle={Math.PI / 2}
             />
             <Computers isMobile={isMobile} />
