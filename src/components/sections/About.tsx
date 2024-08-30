@@ -23,8 +23,8 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, link, icon }) => (
     tiltMaxAngleY={30}
     glareColor="#aaa6c3"
   >
-    <a href={link} target="_blank" rel="noopener noreferrer">
       <div className="xs:w-[250px] w-full">
+        <a href={link} target="_blank" rel="noopener noreferrer">
         <motion.div
           variants={fadeIn("right", "spring", index * 0.5, 0.75)}
           className="green-pink-gradient shadow-card w-full rounded-[20px] p-[1px]"
@@ -41,8 +41,8 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, link, icon }) => (
             </h3>
           </div>
         </motion.div>
+        </a>
       </div>
-    </a>
   </Tilt>
 );
 

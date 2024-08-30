@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "abhqy",
+    title: "Abhay Menon",
     fullName: "Abhay Menon",
     email: "a32menon@uwaterloo.ca",
   },
   hero: {
     name: "abhay.",
-    p: ["a 4B CS student at UW interested in", "cloud technologies and full-stack development."],
+    p: ["a 4B CS student at UWaterloo interested in", "cloud technologies and full-stack development."],
   },
   contact: {
     p: "Get in touch",

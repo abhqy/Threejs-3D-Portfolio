@@ -28,6 +28,9 @@ import python from "./tech/python.png";
 import sql from "./tech/sql.png";
 import r from "./tech/r.png";
 import racket from "./tech/racket.png";
+import ansible from "./tech/ansible.png";
+import terraform from "./tech/terraform.png";
+import jenkins from "./tech/jenkins.png";
 
 import aws from "./tech/aws.png";
 import gcp from "./tech/gcp.png";
@@ -36,6 +39,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import nasdaq from "./company/nasdaq.jpg";
+import dandelion from "./company/dandelion.jpeg";
 import cogeco from "./company/cogeco.png";
 import bb from "./company/bb.png";
 import cloudspark from "./company/cloudspark.png";
@@ -57,6 +62,9 @@ export {
   close,
   css,
   docker,
+  ansible,
+  jenkins,
+  terraform,
   figma,
   git,
   html,
@@ -81,6 +89,8 @@ export {
   shopify,
   starbucks,
   tesla,
+  nasdaq,
+  dandelion,
   cogeco,
   bb,
   cloudspark,

@@ -14,8 +14,9 @@ import {
   // web,
   // javascript,
   typescript,
-  html,
-  css,
+  ansible,
+  terraform,
+  jenkins,
   reactjs,
   // redux,
   // tailwind,
@@ -31,6 +32,8 @@ import {
   // racket,
   // meta,
   // starbucks,
+  nasdaq,
+  dandelion,
   cogeco,
   bb,
   cloudspark,
@@ -42,7 +45,6 @@ import {
   heyo,
   coursebuddy,
   // threejs,
-  flask,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -84,8 +86,28 @@ const technologies: TTechnology[] = [
     icon: gcp,
   },
   {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
     name: "Python",
     icon: python,
+  },
+  {
+    name: "Ansible",
+    icon: ansible,
+  },
+  {
+    name: "Terraform",
+    icon: terraform,
+  },
+  {
+    name: "Jenkins",
+    icon: jenkins,
   },
   {
     name: "C++",
@@ -100,40 +122,42 @@ const technologies: TTechnology[] = [
     icon: reactjs,
   },
   {
-    name: "AWS",
-    icon: aws,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "Flask",
-    icon: flask,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences: TExperience[] = [
+  {
+    title: "DevOps Engineering Intern",
+    companyName: "Nasdaq",
+    icon: nasdaq,
+    iconBg: "#058cbc",
+    date: "Sep 2024 - Dec 2024",
+    points: [],
+  },
+  {
+    title: "DevOps Engineering Intern",
+    companyName: "Dandelion Networks",
+    icon: dandelion,
+    iconBg: "#ffffff",
+    date: "Jan 2024 - Apr 2024",
+    points: [
+      "Automated image deletion processes across multiple EC2 instances using Jenkins and Ansible, reclaiming 42.75% of storage space.",
+      "Deployed Grafana and Prometheus for EC2 monitoring, leading to a 150% rise in actionable insights for improved decision-making and system optimization.",
+      "Reduced manual configuration overhead by 97% using service discovery with Terraform and Prometheus, enabling automatic detection of all blockchain nodes within the VPC.",
+      "Enhanced Grafana Loki logging efficiency by implementing a buffer and batch system, cutting EBS storage usage by 12% and reducing costs through data transfers to S3.",
+      "Streamlined blockchain data management by storing database snapshots in EFS and periodically transferring them to S3, ensuring cost efficiency and long-term data integrity.",
+    ]
+  },
   {
     title: "System Administrator Intern",
     companyName: "Cogeco Connexion",
