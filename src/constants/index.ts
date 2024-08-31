@@ -139,10 +139,16 @@ const experiences: TExperience[] = [
   {
     title: "DevOps Engineering Intern",
     companyName: "Nasdaq",
+    prospective: true,
     icon: nasdaq,
     iconBg: "#058cbc",
     date: "Sep 2024 - Dec 2024",
-    points: [],
+    points: [
+      "Architecting and maintaining CI/CD pipelines with Jenkins, Maven, and GitLab, ensuring seamless deployment and reducing risks in high-performance trading systems.",
+      "Implementing IaC solutions using Terraform and CloudFormation to create scalable and secure infrastructure while maintaining platform integrity.",
+      "Designing and deploying monitoring systems with Prometheus and Grafana, ensuring real-time visibility and proactive issue resolution in trading systems.",
+      "Spearheading the migration of legacy Spring Boot microservices from on-premises to AWS cloud, enhancing scalability, efficiency, and integration.",
+    ],
   },
   {
     title: "DevOps Engineering Intern",

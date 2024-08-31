@@ -9,7 +9,6 @@ import {
   Navbar,
   Tech,
   Works,
-  StarsCanvas,
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";

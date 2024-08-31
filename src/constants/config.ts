@@ -65,13 +65,13 @@ export const config: TConfig = {
   },
   sections: {
     about: {
-      p: "Introduction",
+      p: "About Me",
       h2: "Overview.",
       content: `I'm a fourth-year Computer Science student specializing in full-stack development and cloud infrastructure. Proficient in languages like C++, Python, and TypeScript, I've worked with technologies such as GCP, AWS, Kubernetes, Terraform, Node.js, Flask, and React.js.
       From optimizing cloud app performance to leading Agile projects, my journey showcases a commitment to innovation and growth. Explore further to learn about my experiences and skills!`,
     },
     experience: {
-      p: "What I have done so far",
+      p: "Where I have worked",
       h2: "Work Experience.",
     },
     feedbacks: {

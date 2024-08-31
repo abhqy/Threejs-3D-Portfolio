@@ -41,7 +41,11 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
           {experience.companyName}
         </p>
       </div>
-
+      {experience.prospective && (
+        <p className="text-white-100 text-[14px] mt-2">
+          Expected responsibilities:
+          </p>
+      )}
       <ul className="ml-5 mt-5 list-disc space-y-2">
         {experience.points.map((point, index) => (
           <li
@@ -59,8 +63,7 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
 const Experience = () => {
   return (
     <>
-      <Header useMotion={true} {...config.sections.experience} />
-
+      <Header useMotion={false} {...config.sections.experience} />
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
