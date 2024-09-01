@@ -39,7 +39,7 @@ const EarthCanvas = () => {
           rotation={[0, 0, 0]}
           autoRotateSpeed={5}
         />
-        <ambientLight intensity={2} castShadow />
+        <ambientLight intensity={2} />
         <Earth />
 
         <Preload all />
