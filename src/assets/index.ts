@@ -31,6 +31,7 @@ import racket from "./tech/racket.png";
 import ansible from "./tech/ansible.png";
 import terraform from "./tech/terraform.png";
 import jenkins from "./tech/jenkins.png";
+import kubernetes from "./tech/kubernetes.png";
 
 import aws from "./tech/aws.png";
 import gcp from "./tech/gcp.png";
@@ -83,6 +84,7 @@ export {
   sql,
   r,
   racket,
+  kubernetes,
   aws,
   gcp,
   meta,

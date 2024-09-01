@@ -44,6 +44,7 @@ import {
   stickynotes,
   heyo,
   coursebuddy,
+  kubernetes,
   // threejs,
 } from "../assets";
 
@@ -90,7 +91,7 @@ const technologies: TTechnology[] = [
     icon: aws,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
   {
@@ -108,6 +109,10 @@ const technologies: TTechnology[] = [
   {
     name: "Jenkins",
     icon: jenkins,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
   },
   {
     name: "C++",
